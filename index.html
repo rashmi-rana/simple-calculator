@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="font-awesome/font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="mainScreen">
+        <h1>------ Calculator ------ </h1>
+        <div id="main">
+            <div id="screen">
+                <input type="text" id="result" >
+            </div>
+            <div id="buttons">
+                <button onclick="allClear()" class="char allButton">AC</button>
+                <button onclick="deleteBtn()" class="char allButton">X</button>
+                <button onclick="calculate(this)" class="specialChar allButton">%</button>
+                <button onclick="calculate(this)" class="specialChar allButton">/</button>
+                <button onclick="calculate(this)" class="numbers allButton">7</button>
+                <button onclick="calculate(this)" class="numbers allButton">8</button>
+                <button onclick="calculate(this)" class="numbers allButton">9</button>
+                <button onclick="calculate(this)" class="specialChar allButton">*</button>
+                <button onclick="calculate(this)" class="numbers allButton">6</button>
+                <button onclick="calculate(this)" class="numbers allButton">5</button>
+                <button onclick="calculate(this)" class="numbers allButton">4</button>
+                <button onclick="calculate(this)" class="specialChar allButton">-</button>
+                <button onclick="calculate(this)" class="numbers allButton">1</button>
+                <button onclick="calculate(this)" class="numbers allButton">2</button>
+                <button onclick="calculate(this)" class="numbers allButton">3</button>
+                <button onclick="calculate(this)" class="specialChar allButton">+</button>
+                <button onclick="algebra()" class="char allButton"><i class="fa fa-retweet"></i></button>
+                <button onclick="calculate(this)" class="numbers allButton">0</button>
+                <button onclick="calculate(this)" class="numbers allButton">.</button>
+                <button onclick="calculateBtn()" class="char allButton">=</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

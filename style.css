@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    overflow-x: hidden;
+}
+.mainScreen{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 90px;
+    height: 100vh;
+}
+.mainScreen #main{
+    margin-top: 20px;
+    height: 100%;
+    width: 500px;
+    border: 2px solid;
+    border-radius: 20px;
+    box-shadow: 0 0 15px gray;
+    background-color: black;
+}
+.mainScreen #screen input{
+    height: 40px;
+    width: 100%;
+    padding: 60px 10px 30px;
+    font-size: 30px;
+    text-align: end;
+    outline: none;
+    border: none;
+    border-radius: 20px 20px 0 0;
+    background-color: black;
+    color: white;
+    border-bottom: 2px solid white;
+}
+.mainScreen button{
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    font-size: 25px;
+    border: none;
+}
+.mainScreen #buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+}
+.mainScreen #main #buttons .numbers{
+    background-color: gray;
+    color: white;
+}
+.mainScreen #main #buttons .char{
+    background-color: orange;
+    color: white;
+    font-size: 30px;
+}
+.mainScreen #main #buttons .specialChar{
+    background-color:gainsboro;
+    color: black;
+    font-size: 30px;
+}
+
+
